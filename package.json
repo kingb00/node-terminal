@@ -15,19 +15,24 @@
       "url": "http://russellhaering.com"
     }
   ],
-  "keywords": [ "terminal", "term", "colors", "style" ],
+  "keywords": [
+    "terminal",
+    "term",
+    "colors",
+    "style"
+  ],
   "homepage": "https://github.com/cloudkick/node-terminal",
-  "licenses" : [
+  "licenses": [
     {
-      "type" : "Apache",
-      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/cloudkick/node-terminal.git"
   },
-  "main": "./lib/index",
+  "main": "./index",
   "directories": {
     "lib": "./lib",
     "example": "./example"
@@ -36,6 +41,8 @@
     "test": "make test"
   },
   "dependencies": {
+    "async": "^0.9.0",
+    "q": "^1.1.2",
     "sprintf": ">= 0.1.1"
   },
   "devDependencies": {
@@ -43,6 +50,5 @@
   },
   "engines": {
     "node": ">= 0.4.0"
-  },
-  "main": "./index"
+  }
 }
